@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_nst" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/editNst"
+                        android:layout_width="@dimen/values_fragment_txt_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:numeric="decimal" >
+                    </EditText>
+
+                    <br.com.doutorado.widget.CustomImageView
+                        android:layout_width="@dimen/custom_image_width"
+                        android:layout_height="@dimen/custom_image_width"
+                        android:onClick="showFieldTutorial"
+                        android:paddingLeft="@dimen/custom_image_padding"
+                        android:src="@drawable/question"
+                        android:tag="@string/tutorial_nst" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_nar" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/editNar"
+                        android:layout_width="@dimen/values_fragment_txt_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:numeric="decimal" >
+                    </EditText>
+
+                    <br.com.doutorado.widget.CustomImageView
+                        android:layout_width="@dimen/custom_image_width"
+                        android:layout_height="@dimen/custom_image_width"
+                        android:onClick="showFieldTutorial"
+                        android:paddingLeft="@dimen/custom_image_padding"
+                        android:src="@drawable/question"
+                        android:tag="@string/tutorial_nar" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_vida_util" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/editVidaUtil"
+                        android:layout_width="@dimen/values_fragment_txt_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:numeric="decimal" >
+                    </EditText>
+
+                    <br.com.doutorado.widget.CustomImageView
+                        android:layout_width="@dimen/custom_image_width"
+                        android:layout_height="@dimen/custom_image_width"
+                        android:onClick="showFieldTutorial"
+                        android:paddingLeft="@dimen/custom_image_padding"
+                        android:src="@drawable/question"
+                        android:tag="@string/tutorial_vida_util" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_custo_energia" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/editCustoEnergia"
+                        android:layout_width="@dimen/values_fragment_txt_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:numeric="decimal" >
+                    </EditText>
+
+                    <br.com.doutorado.widget.CustomImageView
+                        android:layout_width="@dimen/custom_image_width"
+                        android:layout_height="@dimen/custom_image_width"
+                        android:onClick="showFieldTutorial"
+                        android:paddingLeft="@dimen/custom_image_padding"
+                        android:src="@drawable/question"
+                        android:tag="@string/tutorial_custo_energia" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_potencia" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/editPotencia"
+                        android:layout_width="@dimen/values_fragment_txt_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:numeric="decimal" >
+                    </EditText>
+
+                    <br.com.doutorado.widget.CustomImageView
+                        android:layout_width="@dimen/custom_image_width"
+                        android:layout_height="@dimen/custom_image_width"
+                        android:onClick="showFieldTutorial"
+                        android:paddingLeft="@dimen/custom_image_padding"
+                        android:src="@drawable/question"
+                        android:tag="@string/tutorial_potencia" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_pst" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/editPst"
+                        android:layout_width="@dimen/values_fragment_txt_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:numeric="decimal" >
+                    </EditText>
+
+                    <br.com.doutorado.widget.CustomImageView
+                        android:layout_width="@dimen/custom_image_width"
+                        android:layout_height="@dimen/custom_image_width"
+                        android:onClick="showFieldTutorial"
+                        android:paddingLeft="@dimen/custom_image_padding"
+                        android:src="@drawable/question"
+                        android:tag="@string/tutorial_pst" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_fator_desconto" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/editFatorDescontoPst"
+                        android:layout_width="@dimen/values_fragment_txt_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:numeric="decimal" >
+                    </EditText>
+
+                    <br.com.doutorado.widget.CustomImageView
+                        android:layout_width="@dimen/custom_image_width"
+                        android:layout_height="@dimen/custom_image_width"
+                        android:onClick="showFieldTutorial"
+                        android:paddingLeft="@dimen/custom_image_padding"
+                        android:src="@drawable/question"
+                        android:tag="@string/tutorial_fator_desconto_pst" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_par" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/editPar"
+                        android:layout_width="@dimen/values_fragment_txt_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:numeric="decimal" >
+                    </EditText>
+
+                    <br.com.doutorado.widget.CustomImageView
+                        android:layout_width="@dimen/custom_image_width"
+                        android:layout_height="@dimen/custom_image_width"
+                        android:onClick="showFieldTutorial"
+                        android:paddingLeft="@dimen/custom_image_padding"
+                        android:src="@drawable/question"
+                        android:tag="@string/tutorial_par" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/txt_fator_desconto" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/editFatorDescontoPar"
+                        android:layout_width="@dimen/values_fragment_txt_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:numeric="decimal" >
+                    </EditText>
+
+                    <br.com.doutorado.widget.CustomImageView
+                        android:layout_width="@dimen/custom_image_width"
+                        android:layout_height="@dimen/custom_image_width"
+                        android:onClick="showFieldTutorial"
+                        android:paddingLeft="@dimen/custom_image_padding"
+                        android:src="@drawable/question"
+                        android:tag="@string/tutorial_fator_desconto_par" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numeric="decimal"
+                    android:text="@string/txt_tx_interesse" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/editTaxaInteresse"
+                        android:layout_width="@dimen/values_fragment_txt_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:numeric="decimal" >
+                    </EditText>
+
+                    <br.com.doutorado.widget.CustomImageView
+                        android:layout_width="@dimen/custom_image_width"
+                        android:layout_height="@dimen/custom_image_width"
+                        android:onClick="showFieldTutorial"
+                        android:paddingLeft="@dimen/custom_image_padding"
+                        android:src="@drawable/question"
+                        android:tag="@string/tutorial_tx_i" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:numeric="decimal"
+                    android:text="@string/txt_tx_escalabilidade" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/editTaxaEscalabilidade"
+                        android:layout_width="@dimen/values_fragment_txt_width"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:numeric="decimal" >
+                    </EditText>
+
+                    <br.com.doutorado.widget.CustomImageView
+                        android:layout_width="@dimen/custom_image_width"
+                        android:layout_height="@dimen/custom_image_width"
+                        android:onClick="showFieldTutorial"
+                        android:paddingLeft="@dimen/custom_image_padding"
+                        android:src="@drawable/question"
+                        android:tag="@string/tutorial_tx_e" />
+                </LinearLayout>
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="calcula"
+                            android:text="@string/curva_viabilidade" />
+
+                        <br.com.doutorado.widget.CustomImageView
+                            android:layout_width="@dimen/custom_image_width"
+                            android:layout_height="@dimen/custom_image_width"
+                            android:onClick="showApplicationTutorial"
+                            android:paddingLeft="@dimen/custom_image_padding"
+                            android:src="@drawable/question"
+                            android:tag="@string/tutorial_nst" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="showDialogPontoOperacao"
+                            android:text="@string/txt_ponto_operacao" />
+
+                        <br.com.doutorado.widget.CustomImageView
+                        	android:id="@+id/btnTutorialPontoOP"
+                            android:layout_width="@dimen/custom_image_width"
+                            android:layout_height="@dimen/custom_image_width"
+                            android:onClick="showFieldTutorial"
+                            android:paddingLeft="@dimen/custom_image_padding"
+                            android:src="@drawable/question"
+                            android:tag="@string/tutorial_ponto_op" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="comparaGrafico"
+                            android:text="@string/analise_incerteza" />
+
+                        <br.com.doutorado.widget.CustomImageView
+                            android:layout_width="@dimen/custom_image_width"
+                            android:layout_height="@dimen/custom_image_width"
+                            android:onClick="showApplicationTutorial"
+                            android:paddingLeft="@dimen/custom_image_padding"
+                            android:src="@drawable/question" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" >
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="limpa"
+                            android:text="@string/nova_analise" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutRootGraph"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/layout_root_graph_padding"
+        android:orientation="horizontal"
+        android:visibility="invisible" >
+
+        <br.com.doutorado.widget.VerticalTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="bottom"
+            android:text="@string/titulo_eixo_x"
+            android:textSize="@dimen/legenda_grafico_text_size"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:id="@+id/layoutGraph"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_viabilidade"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|top"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="30dp"
+                    android:background="#BB777777"
+                    android:orientation="vertical"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:visibility="gone" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/viabilidade"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/layout_viabiliade_text_size" />
+
+                        <TextView
+                            android:id="@+id/txt_resultado_viabilidade"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/layout_viabiliade_text_size" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/custo"
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/layout_viabiliade_text_size" />
+
+                        <TextView
+                            android:id="@+id/txt_resultado_custo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="@android:color/white"
+                            android:textSize="@dimen/layout_viabiliade_text_size" />
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="bottom"
+                android:text="@string/titulo_eixo_y"
+                android:textSize="@dimen/legenda_grafico_text_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

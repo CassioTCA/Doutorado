@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Viability Analysis</string>
+    <string name="curva_viabilidade">Viability Curve</string>
+    <string name="analise_incerteza">Uncertainty Analysis</string>
+    
+
+    <string name="sobre_curva_viabilidade_titulo">VIABILITY CURVE</string>
+    <string name="sobre_curva_viabilidade_texto_1">Viability Curve is a new graphical tool used for the economic evaluation of projects involving energy efficiency improvement. The main advantages of this approach are: to provide a solution for the economic viability analysis of energy efficiency projects linking technical and financial characteristics of the project (Viability Curve); and to allow a graphical display of the parameters uncertainty (Uncertainty Analysis). This application presents one of the facilities of this tool that is to verify the economical viability of a project/equipment for energy efficiency improvement in comparison with other project/equipment (with lower efficiency and lower initial cost). The application was customized to analyze the decision to purchase a new electric motor, but it can also be used to compare two efficiency projects with different costs and efficiencies. Future versions of the application will include analysis regarded the replacement of equipment in operation, retrofitting projects and energy efficiency rebate programs.</string>
+    <string name="sobre_curva_viabilidade_texto_2">The most suitable financial evaluation method to be used in energy efficiency projects is the Net Savings (NS), which simplifies the analyses because it deals with the differences between the LCCs of the equipment in analysis, so it discards the similar costs (O\u0026M, rewinding and residual costs, etc.). Environmental costs can also be simplified, although they have different values for the different alternatives proposed, this  difference has no major impact on the final result. Which leads us to a comparison between the energy cost savings (ΔE) and the investment increase (ΔI) regarding the higher efficiency project.The expression below represents the method and the viability analysis is as follow.</string>
+    <string name="sobre_curva_viabilidade_texto_3">If <b>NS</b> \u003E 0, the project is economic viable, if <b>NS</b> \u003C 0, it is not viable, and <b>NS</b> = 0 is the viability limit for the project.</string>
+    <string name="sobre_curva_viabilidade_texto_4"></string>
+    
+    <string name="sobre_ponto_operacao_titulo">OPERATING POINT</string>
+    <string name="sobre_ponto_operacao_texto_1">Operating characteristic of the Project/motor defined by its main operating parameters. In the case of electric machines it is commonly used the annual (or daily) operating hours (h) and the operating load (%). <b>Values in hours and percentage.</b></string>
+    
+    <string name="sobre_analise_incerteza_titulo">UNCERTAINTY ANALYSIS</string>
+    <string name="sobre_analise_incerteza_texto_1">It is used the deterministic approach to measure the impact of imprecision (uncertainty) of each variable in the efficiency project viability analysis. It allows the application of the deterministic methods called Sensitivity Analysis and Breakeven Analysis. Regarding the Sensitivity Analysis, it is possible to determine which input values, if different, would make a crucial difference to the outcome of the viability analysis. In the Breakeven Analysis, it is possible to determine the maximum and minimum value of an input that allows the project to break even. These analyzes are possible by varying each one of the data input and comparing the result with the original viability curve. The Figure below shows the superposition of several viabilities curves obtained with a 10% variation of the input data Energy Price (C), Lifecycle (n), Discount Rate (d) and Energy Escalation Rate (e) . It can be seen that the input data Energy Price and Lifecycle are those that have most influence in the viability analysis of the project.</string>
+    
+    <string name="sobre_economizado_titulo">SAVED MWh COST</string>
+    <string name="sobre_economizado_texto_1">The investment in an energy efficiency project/equipment is equivalent to an energy purchase for future use, and this use will be in the form of savings on energy bills during the life cycle of the project/equipment. This Saved Energy Cost (U$/MWh) appears as a new indicator for decision-making on investment in energy efficiency, which allows comparison with other types of energy prices. This application calculates the Saved MWh Cost from the relationship between the increased investment for the project/equipment with higher efficiency (ΔI) and the reduction of MWh from the use the use of this project/equipment during its life cycle (ΔMWh), as follows:</string>
+    <string name="sobre_economizado_texto_2">The energy saved during the life cycle of the project/equipment is analyzed as a commodity, so the amount of saved energy is not annually uniform and may change from year to year at a constant escalation rate (e) due to the increase of energy prices and should be brought to its Present Value (NPV), by using the discount rate (d).</string>
+    
+    
+    <string name="tutorial_como_utilizar_app">HOW TO USE THE APP</string>
+    <string name="tutorial_tour_inicial">INITIAL TOUR</string>
+    <string name="tutorial_tour_texto_1">1.	When you open the app, the fields are already filled out with data from a 11 kW induction motor;</string>
+    <string name="tutorial_tour_texto_2">2.	To create a Viability Curve, scroll the data bar down and click the box VIABILITY CURVE;</string>
+    <string name="tutorial_tour_texto_3">3.	To insert an Operating Point, click in the OPERATING POINT box and enter the operating characteristics of the case to be analyzed (e.g., 50 for Load (%)and 3000 for Annual Operating Hours (h));</string>
+    <string name="tutorial_tour_texto_4">4.	The screen will display a red dot as the operating point and the results of Viability Analysis and the calculation of the Saved MWh Cost appear at the top right of the screen;</string>
+    <string name="tutorial_tour_texto_5">5.	The Uncertainty Analysis is shown with a click in the UNCERTAINTY ANALYSIS box and a new screen will appear. Change the value of a parameter and observe the change of the Viability Curve and the new results Viability and Saved MWh Cost (e.g. Enter 82 for Lower Eff.).</string>
+    <string name="tutorial_telas_ajuda">HELP SCREENS</string>
+    <string name="tutorial_telas_ajuda_texto_1">\u2022 At the side of each data entry, there is the symbol (?). <b>PRESS</b> the symbol and an explanatory text of the data will appear. The same happens with the boxes (Viability Curve, Operating Point and Uncertainty Analysis);</string>
+    <string name="tutorial_telas_ajuda_texto_2">\u2022 In the upper right of the mobile screen , there is a symbol (⁞). PRESS the symbol and will be displayed the <b>Help</b> and <b>About</b> options, which will present, respectively, a text about the concept of the app and how to operate it;</string>
+    <string name="tutorial_telas_ajuda_texto_3">\u2022 TOUCH TWICE to enlarge the About and Help texts;</string>
+    <string name="tutorial_telas_ajuda_texto_4">\u2022 Error Messages will appear if the data is inconsistent or incomplete.</string>
+    <string name="tutorial_inserindo_dados">INSERTING DATA</string>
+    <string name="tutorial_inserindo_dados_texto_1">\u2022 To Clear all the fields, click on NEW DATA;</string>
+    <string name="tutorial_inserindo_dados_texto_2">\u2022 To enter new data, TOUCH in the corresponding field, as shown at right;</string>
+    <string name="tutorial_inserindo_dados_texto_3">\u2022 To access the standardized data Table, TOUCH AND HOLD in the corresponding field;</string>
+    <string name="tutorial_inserindo_dados_texto_4">\u2022 On the Uncertainty Analysis screen, the TOUCH AND HOLD will show a SCROLL BAR to help on the  data variation.</string>
+    <string name="tutorial_gerando_curva">CREATING THE VIABILITY CURVE</string>
+    <string name="tutorial_gerando_curva_texto_1">\u2022 After all data insertion , TOUCH the Viability Curve box and the Curve will be generated.</string>
+    <string name="tutorial_ponto_de_operacao">OPERATING POINT</string>
+    <string name="tutorial_ponto_de_operacao_texto_1">\u2022 TOUCH in the Operating Point box to insert the Load (%) (amount not exceeding 100) and the Annual Operating Hours (h) (amount not exceeding 8,700);</string>
+    <string name="tutorial_ponto_de_operacao_texto_2">\u2022 TOUCH AND HOLD one of the fields to have access to a Table with average values;</string>
+    <string name="tutorial_ponto_de_operacao_texto_3">\u2022 CLICK OK and a RED DOT will appear in the graphic and a new screen will be generated in the upper right corner with the results of the Viability Analysis and the calculation of the Saved MWh Cost (SAVED).</string>
+    <string name="tutorial_analise_de_incerteza">UNCERTAINTY ANALYSIS</string>
+    <string name="tutorial_analise_de_incerteza_texto_1">\u2022 After the Viability Analysis, TOUCH the Uncertainty Analysis box to open a new screen that allows the variation of the initial data and generates a new Curve, from the modified data, as well as its new Viability Analysis and Saved MWh Cost (SAVED);</string>
+    <string name="tutorial_analise_de_incerteza_texto_2">\u2022 To change a field data, follow the same steps as Inserting Data. A simple TOUCH allows the typing of a new data and the TOUCH AND HOLD shows a SCROLL BAR that helps to change the data.</string>
+    <string name="tutorial_credito">Credits</string>
+    <string name="tutorial_credito_texto_1"><b>Created by</b> Cássio Andrade (cassiotca@uol.com.br)</string>
+    <string name="tutorial_credito_texto_2">Android Programming by Felipe Brayner (felipebrayner88@gmail.com)</string>
+    
+    <string name="msg_error_ponto_operacao">Annual Operating Hours should be less than 8.700 and Load should be less than 100%</string>
+    <string name="msg_empty_field">You must fill all the blanks</string>
+    <string name="msg_calc_error">Verify the field values</string>
+    <string name="msg_nst_nar_error">ERROR: Lower Eff. \u003e\u003d Higher Eff.</string>
+    <string name="msg_nar_nst_error">ERROR: Higher Eff. \u003c\u003d Lower Eff.</string>
+    <string name="msg_pst_par_error">ERROR: Investment for Lower Eff. \u003e\u003d Investment for Higher Eff.</string>
+    <string name="msg_par_pst_error">ERROR: Investment for Higher Eff. \u003c\u003d Investment for Lower Eff.</string>
+    <string name="msg_potencia_error">ERROR: Wrong Power</string>
+    <string name="msg_potencia_warning">WARNING: Wrong Power</string>
+    
+    <string name="about">About</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="ponto">Operating Point</string>
+    <string name="viabilidade">Viability:</string>
+    <string name="viavel">Viable</string>
+    <string name="nao_viavel">Not Viable</string>
+    <string name="custo">Saved:</string>
+    <string name="nova_analise">New Data</string>
+    
+    <string name="curva_original">Original Curve</string>
+    <string name="curva_incerteza">Uncertainty Curve</string>
+    
+    <string name="tabelas">Tables</string>
+    <string name="tabela">Table</string>
+    <string name="padrao">Standard</string>
+    <string name="custo_energia">Energy Cost</string>
+    <string name="desconto">Discount</string>
+    <string name="vida_util">Lifetime</string>
+    <string name="potencia">Power</string>
+    <string name="taxa_escalabilidade">Energy Escalation Rate</string>
+    <string name="taxa_desconto">Discount Rate</string>
+    
+    <string name="titulo_eixo_x">Annual Operating Hours (h)</string>
+    <string name="titulo_eixo_y">Load (%)</string>
+    
+    <string name="header_pol2">2 Pole</string>
+    <string name="header_pol4">4 Pole</string>
+    <string name="header_pol6">6 Pole</string>
+    <string name="header_pol8">8 Pole</string>
+    <string name="header_potencia">Power</string>
+    
+    <string name="header_kW">kW</string>
+    <string name="header_lifetime">Average Lifetime (years)</string>
+    
+    <string name="header_country">Country</string>
+    <string name="header_currency">Currency</string>
+    <string name="header_electricity_industry">Electricity for industry (U$/MWh)</string>
+    <string name="header_electricity_households">Electricity for households (U$/MWh)</string>
+    
+    <string name="header_cv">cv</string>
+    <string name="header_poles">Poles</string>
+    <string name="header_eff">Eff</string>
+    <string name="header_price_rs">Price R$</string>
+    <string name="header_price_us">Price U$</string>
+    
+    <string name="header_discount_rate">Discount rate (%)</string>
+    
+    <string name="header_cv_hp">cv/hp</string>
+    
+    <string name="header_country_sector">Country/Sector</string>
+    <string name="header_power_range">Power Range</string>
+    <string name="header_load">Load (%)</string>
+    <string name="header_annual_operating_hours">Annual Operating Hours (h/year)</string>
+    
+    <string name="txt_nst">Lower Eff. (%)</string>
+    <string name="txt_nar">Higher Eff. (%)</string>
+    <string name="txt_vida_util">Lifecycle (years)</string>
+    <string name="txt_custo_energia">Energy Price (U$/MWh)</string>
+    <string name="txt_potencia">Rated Power (kW)</string>
+    <string name="txt_pst">Lower Eff. Investment (U$)</string>
+    <string name="txt_par">Higher Eff. Investment (U$)</string>
+    <string name="txt_tx_interesse">Discount Rate (%)</string>
+    <string name="txt_tx_escalabilidade">Energy Escalation Rate (%)</string>
+    <string name="txt_fator_desconto">Discount (%)</string>
+    <string name="txt_ponto_operacao">Operating Point</string>
+    <string name="txt_ponto_operacao_x">Load (%): </string>
+    <string name="txt_ponto_operacao_y">Operating Hours (h/year): </string>
+    
+    <string name="tutorial_nst" formatted="false">Lower Eff._Percentage value of the Project/Motor\'s efficiency with LOWER efficiency. The tables show the minimum efficiency standards for three-phase induction motors applied in Brazil (ABNT), US (NEMA) and European Union (IEC). Value in %.</string>
+    <string name="tutorial_nar" formatted="false">Higher Eff._Percentage value of the Project/Motor\'s efficiency with HIGHER efficiency. The tables show the minimum efficiency standards for three-phase induction motors applied in Brazil (ABNT), US (NEMA) and European Union (IEC). Value in %.</string>
+    <string name="tutorial_vida_util">Lifecycle_Study period of the project/motor to improve efficiency under evaluation. In the case of electric motors it is used the average lifecycle of the machine. The table shows the average lifecycle of induction motors for different rated power. Value in years.</string>
+    <string name="tutorial_custo_energia">Energy Price_Unit price of the type of energy used in the efficiency project (e.g., electricity, gas, oil.). In the case of electric motors, it is the electricity price per unit of energy (kWh). It is recommended to use actual energy prices at the project/motor site that can be obtained directly from the eelectricity bills. The table presents the average cost of electricity in many countries. Value in U$/kWh.</string>
+    <string name="tutorial_potencia">Rated Power_Power displayed in the nameplate of the equipment under evaluation. The table shows the typical rated power of electric motors and also the conversion of values in cv/hp into kW. Value in kW.</string>
+    <string name="tutorial_pst">Lower Eff. Investment_Initial investment cost for the acquisition of the equipment for the Project with LOWER efficiency. In the case of electric motors, this is the purchase cost of the equipment. The tables show the manufacturer’s purchase cost of induction motors available in the US and Brazilian markets. Value in U$.</string>
+    <string name="tutorial_par">Higher Eff. Investment_Initial investment cost for the acquisition of the equipment for the Project with HIGHER efficiency. In the case of electric motors, this is the purchase cost of the equipment. The tables show the manufacturer’s purchase cost of induction motors available in the US and Brazilian markets. Value in U$.</string>
+    <string name="tutorial_tx_i">Discount Rate_It is a special type of Interest Rate which makes the investor indifferent between cash amounts received at different points in time. The application of the discount rate on the cash flow received or paid during the period of study (life cycle) makes them indifferent to the action of inflation. For example, with a discount rate of 5, the present value of a cash amount of $100 at the end of five years is $78.35. To the investor with a 5 discount rate, these two amounts are time equivalent. The table shows typical values of discount rate. Value in %.</string>
+    <string name="tutorial_tx_e">Energy Escalation Rate_It is used to estimate the actual cost of the energy type used in the project/motor to improve efficiency during the study period (lifecycle). It shows the rate of the energy price increase above inflation during the study period (lifecycle). The table shows estimated values of Energy Escalation Rates. Value in %.</string>
+    <string name="tutorial_fator_desconto_pst">Discount_Usually the retail shop prices are lower than the ones displayed in the manufacturer’s catalog and the percentage discount over the LOWER Eff. Investment is established as the Discount. The table shows standardized values of the discount. Value in %.</string>
+    <string name="tutorial_fator_desconto_par">Discount_Usually the retail shop prices are lower than the ones displayed in the manufacturer’s catalog and the percentage discount over the HIGHER Eff. Investment is established as the Discount. The table shows standardized values of the discount. Value in %.</string>
+    <string name="tutorial_ponto_op">Operating Point_Operating characteristic of the Project/motor defined by its main operating parameters. In the case of electric machines it is commonly used the annual (or daily) operating hours (h) and the operating load (%). <b>Values in hours and percentage.</b></string>
+    <string name="tutorial_pressione_segure">TIP: Press and Hold the parameter’s Box to Access the Tables</string>
+    
+    <string name="mostrar_novamente">Do not show this text again</string>
+    <string name="mostrar_novamente_titulo">Attention</string>
+    <string name="mostrar_novamente_analise_incerteza_texto">Press and Hold the parameter’s Box to appear the scrollbar</string>
+    <string name="mostrar_novamente_campo_pressionado_texto">PRESS AND HOLD the input fields to access the standard Tables</string>
+    <string name="mostrar_novamente_sobre_texto">TOUCH TWICE to enlarge text</string>
+    <string name="mostrar_novamente_tutorial_texto">TOUCH TWICE to enlarge text</string>
+</resources>

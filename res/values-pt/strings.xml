@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Análise de Viabilidade</string>
+    
+    <string name="curva_viabilidade">Curva de Viabilidade</string>
+    <string name="analise_incerteza">Análise de Incerteza</string>
+    
+    
+    <string name="sobre_curva_viabilidade_titulo">CURVA DE VIABILIDADE</string>
+    <string name="sobre_curva_viabilidade_texto_1">Curva de Viabilidade é uma nova ferramenta gráfica para avaliar economicamente projetos que envolvam a melhoria de eficiência energética. Suas principais vantagens são apresentar uma solução para análise de viabilidade econômica de projetos de eficiência energética aliando as características técnicas e financeiras do projeto em um mesmo ambiente gráfico (Curva de Viabilidade) e permitir a visualização da influência da incerteza dos parâmetros analisados (Análise da Incerteza). Este aplicativo apresenta a primeira das facilidades desta ferramenta que é verificar a viabilidade econômica de uma proposta para a melhoria de eficiência em comparação com outra proposta (com menor eficiência e consequente menor custo). O Aplicativo foi customizado para analisar a decisão de adquirir um novo motor elétrico, fazendo a comparação entre opções disponíveis com diferentes eficiências e preços de aquisição, mas pode ser utilizado para comparar projetos de eficiência com diferentes custos e eficiências gerais. Futuras versões da ferramenta permitirão expandir as opções de análises para situações de substituição de equipamentos em operação, retrofitting e os efeitos de programas de incentivo à melhoria da eficiência energética.</string>
+    <string name="sobre_curva_viabilidade_texto_2">O Método financeiro utilizado para analisar a viabilidade econômica do projeto de eficientização energética é o Net Savings/Economia Líquida e ele foi escolhido por se basear na economia obtida durante todo o período de estudo/vida útil do projeto/motor e ainda porque, como se baseia na diferença entre os custos de cada uma das alternativas analisadas, permite a simplificação de custos similares às duas opções (custos de manutenção, O\u0026M, reparos, etc.). Os custos ambientais também podem ser simplificados, apesar de apresentarem valores diferentes para diferentes alternativas propostas, mas a diferença não tem grande impacto sobre o resultado final. O que nos leva a uma comparação entre a redução de custos de energia (ΔE) e o incremento nos investimentos (ΔI) resultantes da implantação do projeto de eficientização dos motores.</string>
+    <string name="sobre_curva_viabilidade_texto_3">Desta expressão: se, <b>NS</b> \u003E 0, o projeto é viável economicamente, <b>NS</b> \u003C 0, o projeto é inviável economicamente, e <b>NS</b> = 0 é o limite para a viabilidade do projeto.</string>
+    <string name="sobre_curva_viabilidade_texto_4">A linha que define o valor NS=0 é o limite que define a viabilidade do projeto. Este limite pode ser projetado no eixo <b>xy</b> que relaciona o carregamento com as horas trabalhadas no ano e aí teremos a Curva de Viabilidade do projeto (Figura abaixo), que mostra para que situações de operação da projeto/motor o projeto se torna viável.</string>
+    
+    <string name="sobre_ponto_operacao_titulo">PONTO DE OPERAÇÃO</string>
+    <string name="sobre_ponto_operacao_texto_1">Característica de operação do projeto/motor definido pelos principais parâmetros de operação do projeto/equipamento. No caso de máquinas elétricas, o número de horas em operação durante o ano (h/year, ou h/dia, se for o caso ) e o percentual da carga nominal em que opera (carregamento). <b>Valores em h e %.</b></string>
+    
+    <string name="sobre_analise_incerteza_titulo">ANÁLISE DE INCERTEZA</string>
+    <string name="sobre_analise_incerteza_texto_1">Utiliza um método de cálculo de incerteza determinístico, que determina o impacto da imprecisão (incerteza) de cada uma das variáveis no resultado da análise do projeto de eficientização. Permite a aplicação da <b>Análise de Sensibilidade</b> e da <b>Análise de Breakeven</b>. Na primeira, é possível determinar qual dos parâmetros utilizado tem maior influência sobre o resultado final, permitindo a variação de cada um dos parâmetros e verificando os efeitos na viabilidade do projeto. Na análise Breakeven, é possível determinar os limites superiores e inferiores de variação de cada parâmetro (Eficiência do projeto, vida útil, custos, taxas, etc.) que permitem que o projeto ainda se mantenha viável. Estas análises são feitas a partir da variação percentual de cada um dos parâmetros e a criação da nova Curva de Viabilidade a partir desta variação. A Figura abaixo mostra a superposição de várias curvas de viabilidades obtidas a partir da variação de 10% dos parâmetros de Preço da Energia (C), Vida Útil (n), Taxa de Desconto (d) e Taxa de Escalada da Energia (e). Dela pode-se concluir, pela Análise de Sensibilidade, que os parâmetros de Preço da Energia e Vida Útil são os que mais influenciam nesta análise de viabilidade de projetos.</string>
+    
+    <string name="sobre_economizado_titulo">VALOR DO MWh ECONOMIZADO</string>
+    <string name="sobre_economizado_texto_1">O Investimento em eficiência energética é o equivalente a uma compra de energia para uso futuro, e este uso se dará na forma de economia nas contas de energia durante o período de vida útil do equipamento/projeto. O Cálculo do custo desta energia comprada para uso futuro (em U$/MWh) aparece como um novo indicador para a tomada de decisão sobre o investimento em eficiência energética, indicador este que permite a comparação com valores de mercado para a compra de energia. O aplicativo faz o cálculo do custo do MWh economizado fazendo a relação entre o acréscimo do investimento para o projeto/equipamento com maior eficiência (ΔI) e a redução de MWh obtido durante a vida útil do projeto equipamento (ΔMWh), da seguinte forma:</string>
+    <string name="sobre_economizado_texto_2">A energia economizada durante o período de vida útil do projeto/equipamento é tratada como uma commoditie e pode ter seu valor alterado durante o tempo em função do aumento da tarifa de energia acima da inflação (e) e deve ter seu valor trazido para o tempo presente (NPV), por meio da utilização da taxa de desconto (d).</string>
+    
+    
+    <string name="tutorial_como_utilizar_app">COMO UTILIZAR O APLICATIVO</string>
+    <string name="tutorial_tour_inicial">TOUR INICIAL</string>
+    <string name="tutorial_tour_texto_1">1. Ao abrir o aplicativo, os campos já se encontram preenchidos com os dados de um motor de 11 kW;</string>
+    <string name="tutorial_tour_texto_2">2. Para Gerar a Curva de Viabilidade, role a barra de dados para cima e clique no botão Curva de Viabilidade;</string>
+    <string name="tutorial_tour_texto_3">3. Para inserir um Ponto de Operação, clique o botão Ponto de Operação e digite as características de operação do caso a ser analisado (Ex. 50 para Carregamento (%) e 3000 para Horas Anuais de Operação (h));</string>
+    <string name="tutorial_tour_texto_4">4. Aparecerá na tela um ponto vermelho representando o Ponto de Operação e os resultados de Viabilidade e Economia na parte superior direita da tela;</string>
+    <string name="tutorial_tour_texto_5">5. Para a Análise da Incerteza, clique no botão Análise da Incerteza e aparecerá uma nova tela. Altere o valor de um dos parâmetros e observe a alteração da Curva de Viabilidade e os novos resultados de Viabilidade e Economia (Ex. digite 82 para Menor Eff.).</string>
+    <string name="tutorial_telas_ajuda">TELAS DE AJUDA</string>
+    <string name="tutorial_telas_ajuda_texto_1">\u2022 Ao lado de cada caixa de inserção de dados, há o símbolo ? que, ao ser pressionado, gera uma tela explicativa sobre o parâmetro. O mesmo acontece com os botões de Curva de Viabilidade, Ponto de Operação e Análise da Incerteza;</string>
+    <string name="tutorial_telas_ajuda_texto_2">\u2022 No campo superior direito da tela, há o símbolo  ⁞  que, ao ser pressionado, exibe as opções Sobre e Ajuda, onde poderão ser acessados, respectivamente, um texto sobre o conceito do aplicativo e o texto sobre como operar o aplicativo;</string>
+    <string name="tutorial_telas_ajuda_texto_3">\u2022 TOQUE DUAS VEZES para ampliar o texto do Sobre e da Ajuda;</string>
+    <string name="tutorial_telas_ajuda_texto_4">\u2022 Mensagens de Erro aparecerão caso os dados estejam inconsistentes ou faltar algum dado a ser preenchido.</string>
+    <string name="tutorial_inserindo_dados">INSERINDO DADOS</string>
+    <string name="tutorial_inserindo_dados_texto_1">\u2022 Para Limpar todos os campos preenchidos, clicar em Nova Análise;</string>
+    <string name="tutorial_inserindo_dados_texto_2">\u2022 Para digitar novos dados, <b>TOQUE</b> na caixa do campo correspondente, como na figura acima;</string>
+    <string name="tutorial_inserindo_dados_texto_3">\u2022 Para ter acesso aos dados padronizados de tabela, <b>MANTENHA PRESSIONADO O TOQUE</b> na caixa do parâmetro correspondente;</string>
+    <string name="tutorial_inserindo_dados_texto_4">\u2022 Na Análise da Incerteza, ao MANTER PRESSIONADO O TOQUE na caixa do parâmetro a ser alterado, aparecerá uma BARRA DE ROLAGEM para facilitar a variação dos dados.</string>
+    <string name="tutorial_gerando_curva">GERANDO A CURVA DE VIABILIDADE</string>
+    <string name="tutorial_gerando_curva_texto_1">\u2022 Após a inserção de todos os parâmetros, TOQUE no botão Curva de Viabilidade e será gerada a curva.</string>
+    <string name="tutorial_ponto_de_operacao">PONTO DE OPERAÇÃO</string>
+    <string name="tutorial_ponto_de_operacao_texto_1">\u2022 TOQUE no botão Ponto de Operação para inserir as características de Carregamento (%), em valor não superior a 100, e Horas Anuais de Operação (h), em valor não superior a 8.700;</string>
+    <string name="tutorial_ponto_de_operacao_texto_2">\u2022 Este item também permite o acesso a valores tabelados MANTENDO PRESSIONADO O TOQUE na caixa de digitação do parâmetro;</string>
+    <string name="tutorial_ponto_de_operacao_texto_3">\u2022 Após o preenchimento dos dados, clique em OK e será gerado uma tela no canto superior direito com os resultados da análise de viabilidade e com o cálculo do custo do MWh Economizado (Economia).</string>
+    <string name="tutorial_analise_de_incerteza">ANÁLISE DA INCERTEZA</string>
+    <string name="tutorial_analise_de_incerteza_texto_1">\u2022 Após a Análise de Viabilidade, TOQUE no botão de Análise de Incerteza para abrir uma nova tela que permite a variação dos parâmetros iniciais e a geração de uma nova curva, gerada a partir dos parâmetros modificados, assim como uma respectiva nova Análise de Viabilidade e cálculo do custo do MWh economizado (Economia);</string>
+    <string name="tutorial_analise_de_incerteza_texto_2">\u2022 Para alterar um parâmetro, siga os mesmos passos da Inserção de Dados. Um TOQUE simples permite a digitação do novo parâmetro; MANTER PRESSIONADO O TOQUE mostra uma BARRA DE ROLAGEM que facilita na alteração do parâmetro.</string>
+    <string name="tutorial_credito">Ficha Técnica</string>
+    <string name="tutorial_credito_texto_1"><b>Criação:</b> Cássio Andrade (cassiotca@uol.com.br)</string>
+    <string name="tutorial_credito_texto_2">Programação: Felipe Brayner (felipebrayner88@gmail.com)</string>
+    
+    <string name="msg_error_ponto_operacao">Valores de Horas anuais de operação devem menores que 8.700 e valores de carregamento menores que 100%</string>
+    <string name="msg_empty_field">Preencha todos os campos</string>
+    <string name="msg_calc_error">Verifique os valores dos campos</string>
+    <string name="msg_nst_nar_error">ERRO: Menor Eff. \u003e\u003d Maior Eff.</string>
+    <string name="msg_nar_nst_error">ERRO: Maior Eff. \u003c\u003d Menor Eff.</string>
+    <string name="msg_pst_par_error">ERRO: Investimento para Menor Eff. \u003e\u003d Investimento para Maior Eff.</string>
+    <string name="msg_par_pst_error">ERRO: Investimento para Maior Eff. \u003c\u003d Investimento para Menor Eff.</string>
+    <string name="msg_potencia_error">ERRO: Potencia errada</string>
+    <string name="msg_potencia_warning">CUIDADO: Potencia errada</string>
+    
+    <string name="about">Sobre</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="ponto">Ponto de Operação</string>
+    <string name="viabilidade">Viabilidade:</string>
+    <string name="viavel">Viável</string>
+    <string name="nao_viavel">Não Viável</string>
+    <string name="custo">Economia:</string>
+    <string name="nova_analise">Nova Análise</string>
+    
+    <string name="curva_original">Curva Original</string>
+    <string name="curva_incerteza">Curva de Incerteza</string>
+    
+    <string name="tabelas">Tabelas</string>
+    <string name="tabela">Tabela</string>
+    <string name="padrao">Padrão</string>
+    <string name="custo_energia">Custo Energia</string>
+    <string name="desconto">Desconto</string>
+    <string name="vida_util">Vida Útil</string>
+    <string name="potencia">Potência</string>
+    <string name="taxa_escalabilidade">Escalabilidade do Preço da Energia</string>
+    <string name="taxa_desconto">Taxa de Desconto</string>
+    
+    <string name="titulo_eixo_x">Horas Anuais em Operação (h)</string>
+    <string name="titulo_eixo_y">Carregamento (%)</string>
+    
+    <string name="header_pol2">2 Pole</string>
+    <string name="header_pol4">4 Pole</string>
+    <string name="header_pol6">6 Pole</string>
+    <string name="header_pol8">8 Pole</string>
+    <string name="header_potencia">Potência</string>
+    
+    <string name="header_kW">kW</string>
+    <string name="header_lifetime">Average Lifetime (years)</string>
+    
+    <string name="header_country">Country</string>
+    <string name="header_currency">Currency</string>
+    <string name="header_electricity_industry">Electricity for industry (U$/MWh)</string>
+    <string name="header_electricity_households">Electricity for households (U$/MWh)</string>
+    
+    <string name="header_cv">cv</string>
+    <string name="header_poles">Poles</string>
+    <string name="header_eff">Eff</string>
+    <string name="header_price_rs">Price R$</string>
+    <string name="header_price_us">Price U$</string>
+    
+    <string name="header_discount_rate">Discount Rate (%)</string>
+    
+    <string name="header_cv_hp">cv/hp</string>
+    
+    <string name="header_country_sector">País/Setor</string>
+    <string name="header_power_range">Faixa de Potência</string>
+    <string name="header_load">Carregamento (%)</string>
+    <string name="header_annual_operating_hours">Horas em Operação no Ano (h/ano)</string>
+    
+    <string name="txt_nst">Menor Eff. (%)</string>
+    <string name="txt_nar">Maior Eff. (%)</string>
+    <string name="txt_vida_util">Vida Útil (anos)</string>
+    <string name="txt_custo_energia">Preço da Energia (U$/MWh)</string>
+    <string name="txt_potencia">Potência Nominal (kW)</string>
+    <string name="txt_pst">Investimento para Menor Eff. (U$)</string>
+    <string name="txt_par">Investimento para Maior Eff. (U$)</string>
+    <string name="txt_tx_interesse">Taxa de Desconto (%)</string>
+    <string name="txt_tx_escalabilidade">Escalabilidade do Preço da Energia (%)</string>
+    <string name="txt_fator_desconto">Desconto (%)</string>
+    <string name="txt_ponto_operacao">Ponto de Operação</string>
+    <string name="txt_ponto_operacao_x">Carregamento (%): </string>
+    <string name="txt_ponto_operacao_y">Horas de Operação (h/ano): </string>
+    
+    <string name="tutorial_nst">Menor Eff._Valor percentual da eficiência do projeto/motor com MENOR eficiência. As tabelas apresentam valores padronizados de eficiência de motores de indução trifásicos no Brasil (ABNT), EUA (NEMA) e União Européia (IEC). Valor em %.</string>
+    <string name="tutorial_nar">Maior Eff._Valor percentual da eficiência do projeto/motor com MAIOR eficiência. As tabelas apresentam valores padronizados de eficiência de motores de indução trifásicos no Brasil (ABNT), EUA (NEMA) e União Européia (IEC). Valor em %.</string>
+    <string name="tutorial_vida_util">Vida Útil_Período de estudo do projeto de melhoria de eficiência. No caso de motores elétricos utiliza-se a vida útil do motor. A tabela apresenta valores médios de vida útil de motores de indução trifásicos. Valor em anos.</string>
+    <string name="tutorial_custo_energia">Preço da Energia_Preço unitário do tipo de energia utilizado no projeto de eficientização (ex. eletricidade, gás, óleo diesel). No caso de motores elétricos, a energia utilizada é a eletricidade e utiliza-se a tarifa de energia por unidade de energia (kWh). A tabela apresenta os custos médios de eletricidade em vários países. Recomenda-se utilizar valores locais que podem ser obtidos diretamente das contas de energia. Valor em R$/kWh.</string>
+    <string name="tutorial_potencia">Potência Nominal_Valor da potência nominal do projeto/motor. A tabela apresenta valores nominais de potências de motores associando os valores em cv/hp com os respectivos valores em kW. Valor em kW.</string>
+    <string name="tutorial_pst">Investimento para Menor Eff._Custo do Investimento inicial para aquisição dos equipamentos do projeto com MENOR eficiência. No caso da aquisição de um motor elétrico, este custo se refere ao valor de aquisição do equipamento. As tabelas apresentam custos de fabricantes de motores disponíveis no mercado dos EUA (U$) e do Brasil (R$). Valor em U$.</string>
+    <string name="tutorial_par">Investimento para Maior Eff._Custo do Investimento inicial para aquisição dos equipamentos do projeto com MAIOR eficiência. No caso da aquisição de um motor elétrico, este custo se refere ao valor de aquisição do equipamento. As tabelas apresentam custos de fabricantes de motores disponíveis no mercado dos EUA (U$) e do Brasil (R$). Valor em U$.</string>
+    <string name="tutorial_tx_i" formatted="false">Taxa de Desconto_Tipo especial de taxa de interesse utilizada para calcular o valor atual de um valor a ser recebido ou pago no tempo futuro. Para o investidor, a aplicação da taxa de desconto sobre o fluxo de caixa recebido ou pago ao longo do período de estudo (vida útil) torna estes valores indiferentes à ação da inflação. Por exemplo, com uma taxa de desconto de 5%, o valor presente de uma despesa de R$ 100,00 ao fim de 5 anos equivale a R$ 78,35 no momento atual; para o investidor estes valores são equivalentes. A tabela mostra valores típicos de Taxa de Desconto. Valor em %.</string>
+    <string name="tutorial_tx_e">Escalabilidade do Preço da Energia_Representa a taxa de aumento do Preço da Energia ao longo do período de estudo (vida útil) descontado a inflação. A tabela mostra valores estimados de Taxa de Escalabilidade. Valor em %.</string>
+    <string name="tutorial_fator_desconto_pst">Desconto_Valor percentual do desconto sobre o valor do Investimento para MENOR Eff.. A tabela apresenta valores padronizados de desconto. Valor em %.</string>
+    <string name="tutorial_fator_desconto_par">Desconto_Valor percentual do desconto sobre o valor do Investimento para MAIOR Eff.. A tabela apresenta valores padronizados de desconto. Valor em %.</string>
+    <string name="tutorial_ponto_op">Ponto de Operação_Característica de operação do projeto/motor definido pelos principais parâmetros de operação do projeto/equipamento. No caso de máquinas elétricas, o número de horas em operação durante o ano (h/year, ou h/dia, se for o caso ) e o percentual da carga nominal em que opera (carregamento). <b>Valores em h e %.</b></string>
+    <string name="tutorial_pressione_segure">DICA: Pressione e Segure o campo de digitação para ter acesso às Tabelas</string>
+    
+    <string name="mostrar_novamente">Não Mostrar esta mensagem novamente</string>
+    <string name="mostrar_novamente_titulo">Atenção</string>
+    <string name="mostrar_novamente_analise_incerteza_texto">Para ter acesso à Barra de Rolagem, Pressione e Segure o campo de digitação</string>
+    <string name="mostrar_novamente_campo_pressionado_texto">TOQUE E MANTENHA PRESSIONADO os campos de digitação para ter acesso às tabelas padronizadas</string>
+    <string name="mostrar_novamente_sobre_texto">TOQUE DUAS VEZES para ampliar o texto</string>
+    <string name="mostrar_novamente_tutorial_texto">TOQUE DUAS VEZES para ampliar o texto</string>
+</resources>

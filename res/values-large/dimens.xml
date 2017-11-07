@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_width">100dp</dimen>
+    <dimen name="text_width">60dp</dimen>
+    <dimen name="lifetime_text_width">150dp</dimen>
+    <dimen name="tx_text_width">150dp</dimen>
+    <dimen name="potencia_text_width">150dp</dimen>
+    <dimen name="country_text_size">110dp</dimen>
+    <dimen name="text_header_size">15dp</dimen>
+    
+    
+    <dimen name="values_fragment_txt_width">100dp</dimen>
+    <dimen name="values_fragment_txt_ponto_op_width">100dp</dimen>
+    
+    
+    <dimen name="legend_width">225dp</dimen>
+    
+    
+    <dimen name="dialog_ponto_operacao_margin_top">30dp</dimen>
+    
+    
+    <dimen name="custom_image_width">50dp</dimen>
+    <dimen name="custom_image_padding">20dp</dimen>
+    
+    
+    <dimen name="layout_root_graph_padding">20dp</dimen>
+    
+    
+    <dimen name="paragrafo">38dp</dimen>
+    <dimen name="paragrafo_mini">15dp</dimen>
+    <dimen name="tutorial_titulo_text_size">26dp</dimen>
+    <dimen name="tutorial_espaco_lateral">14dp</dimen>
+    
+    <dimen name="layout_viabiliade_text_size">27dp</dimen>
+    
+    
+    <dimen name="legenda_grafico_text_size">24dp</dimen>
+</resources>

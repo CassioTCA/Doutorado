@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:yourapp="http://schemas.android.com/apk/res-auto" >
+    <!-- Search, should appear as action button -->
+    <item android:id="@+id/action_about"
+          android:title="@string/about"
+          yourapp:showAsAction="never"  />
+    <item android:id="@+id/action_tutorial"
+          android:title="@string/tutorial"
+          yourapp:showAsAction="never"  />
+</menu>
